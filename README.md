@@ -1,5 +1,7 @@
 ## Ada-Win32
-### Ada bindings for Win32 - Generated from the win32 metadata see https://github.com/microsoft/win32metadata
+### Ada bindings for Win32 - Generated from the win32 metadata
+
+https://github.com/microsoft/win32metadata
 
 ### Prerequisites
 

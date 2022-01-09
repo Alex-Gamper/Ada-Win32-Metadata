@@ -5,8 +5,8 @@ https://github.com/microsoft/win32metadata
 
 ### Prerequisites
 
-You will need a working gcc/gnat **x64** Windows build environment. This release has **NOT** yet been
-tested against 32 bit environments. You may need to build gcc/gnat **x64** from source if required.
+You will need a working gcc/gnat **x64** Windows build environment. This release is **NOT** intended
+to be used for 32 bit environments. You may need to build gcc/gnat **x64** from source if required.
 Details/scripts on how to do this can be found on the mingw64 website, alternatively install using MSYS2.
 
 ### Project Status
@@ -15,7 +15,16 @@ v 1.0 Released
 
 ### Build instructions
 
-  tba
+  #### Notes
+  This binding is supplied as a single source file (approx 35Mb in size and ~1m lines of code) The reason is due to the cyclic dependencies in mapping a metadata Namespace -> Ada package and flattening the heirarchy is currently seen as the most appropriate solution.
+  
+  Do **NOT** try and view/edit source in IDE's that support intellisence as the file size will/may cause the IDE to become unresponsive due to the time to parse the file
+  
+  #### Instructions
+  
+  To build run **gprbuild -p -P Win32_ada.gpr**
+  
+  To install run **gprinstall -p -P Win32_ada.gpr**
 
 ### Examples
 

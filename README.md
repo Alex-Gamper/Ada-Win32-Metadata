@@ -18,7 +18,7 @@ v 1.0 Released
   #### Notes
   This binding is supplied as a single source file (approx 35Mb in size and ~1m lines of code) The reason is due to the cyclic dependencies in mapping a metadata Namespace -> Ada package and flattening the heirarchy is currently seen as the most appropriate solution.
   
-  Do **NOT** try and view/edit source in IDE's that support intellisence as the file size will/may cause the IDE to become unresponsive due to the time to parse the file
+  Do **NOT** try and view/edit the source in IDE's that support intellisence as the file size will/may cause the IDE to become unresponsive due to the time to parse the file for colorization and syntax checking purposes.
   
   #### Instructions
   

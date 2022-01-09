@@ -1,0 +1,1 @@
+win32_ada.ads:155:09: warning: component of "Void_Array" padded by 8 bits

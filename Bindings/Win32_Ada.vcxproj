@@ -262,6 +262,10 @@
   <ItemGroup>
     <None Include="Win32_Ada.gpr" />
   </ItemGroup>
+  <ItemGroup>
+    <AdaCompile Include="Win32_Ada.ads" />
+    <AdaCompile Include="Win32_Ada.Api.ads" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
     <Import Project="$(CustomProjectExtensionsPath)Ada.targets" />
